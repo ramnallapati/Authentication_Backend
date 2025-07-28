@@ -1,7 +1,7 @@
 
 import bcrypt from 'bcryptjs';
 import jwt from 'jsonwebtoken';
-import { User } from '../models/userModel.js';
+import { User } from '../Models/userModel.js';
 import { transporter } from '../config/nodemailer.js';
 
 
