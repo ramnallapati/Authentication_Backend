@@ -35,7 +35,7 @@ const connectDB = async ()=> {
             console.log('🔄 MongoDB Reconnected');
         })
     } catch (error) {
-        console.error(" ❌ Error is Occuring while Connecting Data Base");
+        console.error(" ❌ Error is Occuring while Connecting Data Base",error.messsage);
         process.exit(1);
     }
     
